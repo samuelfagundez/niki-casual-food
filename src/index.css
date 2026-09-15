@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+
+/* Paleta provisional tipo "casual food" (mostaza, tomate, carbón, crema) —
+   pendiente de sustituir por la paleta extraída de fotos reales del local
+   en cuanto el cliente las facilite (ver punto 0.5 del handoff: nunca dejar
+   una paleta genérica de plantilla como definitiva). */
+@theme {
+  --color-cream: #fbf4e6;
+  --color-cream-dark: #f2e6cc;
+  --color-ink: #2a221c;
+  --color-mustard: #e8a13a;
+  --color-mustard-dark: #c17f1f;
+  --color-tomato: #d94f30;
+  --color-tomato-dark: #ac3a21;
+  --color-charcoal: #3c3430;
+
+  --font-display: 'Fraunces', ui-serif, Georgia, serif;
+  --font-sans: 'Figtree', ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+  }
+}
