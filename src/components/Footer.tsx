@@ -12,6 +12,7 @@ export default function Footer() {
         <div className="text-sm">
           <p className="font-semibold text-cream">Contacto</p>
           <p className="mt-2">{content.phoneDisplay}</p>
+          <p>{content.address.full}</p>
           {content.email && <p>{content.email}</p>}
         </div>
 
@@ -23,7 +24,7 @@ export default function Footer() {
                 href={content.social.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline decoration-mustard underline-offset-4 hover:text-mustard"
+                className="underline decoration-mauve underline-offset-4 hover:text-mauve"
               >
                 Instagram
               </a>
@@ -33,7 +34,7 @@ export default function Footer() {
                 href={content.social.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline decoration-mustard underline-offset-4 hover:text-mustard"
+                className="underline decoration-mauve underline-offset-4 hover:text-mauve"
               >
                 Facebook
               </a>

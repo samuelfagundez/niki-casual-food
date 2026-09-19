@@ -5,7 +5,7 @@ export default function About() {
     <section id="sobre-nosotros" className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
       <div className="grid gap-12 md:grid-cols-[1.1fr_0.9fr]">
         <div>
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-tomato">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-salmon">
             Sobre nosotros
           </p>
           <h2 className="mt-3 font-display text-3xl font-semibold text-ink sm:text-4xl">
@@ -18,7 +18,7 @@ export default function About() {
           {content.highlights.map((h) => (
             <li
               key={h}
-              className="rounded-2xl border border-mustard/25 bg-cream-dark/60 p-5 text-sm leading-relaxed text-ink/85"
+              className="rounded-2xl border border-mauve/25 bg-cream-dark/60 p-5 text-sm leading-relaxed text-ink/85"
             >
               {h}
             </li>

@@ -3,6 +3,8 @@ import { content, contactHref, reservationHref } from '../content'
 
 const NAV = [
   { href: '#sobre-nosotros', label: 'Nosotros' },
+  { href: '#galeria', label: 'Galería' },
+  { href: '#ubicacion', label: 'Ubicación' },
   { href: '#contacto', label: 'Contacto' },
 ]
 
@@ -21,7 +23,7 @@ export default function Header() {
             <a
               key={item.href}
               href={item.href}
-              className="text-sm font-medium text-ink/80 transition hover:text-tomato"
+              className="text-sm font-medium text-ink/80 transition hover:text-salmon"
             >
               {item.label}
             </a>
@@ -33,7 +35,7 @@ export default function Header() {
             href={contactHref()}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full border border-mustard-dark px-4 py-2 text-sm font-semibold text-mustard-dark transition hover:bg-mustard hover:text-cream"
+            className="rounded-full border border-mauve-dark px-4 py-2 text-sm font-semibold text-mauve-dark transition hover:bg-mauve hover:text-cream"
           >
             Contáctanos
           </a>
@@ -41,9 +43,9 @@ export default function Header() {
             href={reservationHref()}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full bg-tomato px-4 py-2 text-sm font-semibold text-cream transition hover:bg-tomato-dark"
+            className="rounded-full bg-salmon px-4 py-2 text-sm font-semibold text-cream transition hover:bg-salmon-dark"
           >
-            Hacer pedido
+            Reservar mesa
           </a>
         </div>
 
@@ -84,7 +86,7 @@ export default function Header() {
               href={contactHref()}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full border border-mustard-dark px-4 py-2.5 text-center text-sm font-semibold text-mustard-dark"
+              className="rounded-full border border-mauve-dark px-4 py-2.5 text-center text-sm font-semibold text-mauve-dark"
             >
               Contáctanos
             </a>
@@ -92,9 +94,9 @@ export default function Header() {
               href={reservationHref()}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full bg-tomato px-4 py-2.5 text-center text-sm font-semibold text-cream"
+              className="rounded-full bg-salmon px-4 py-2.5 text-center text-sm font-semibold text-cream"
             >
-              Hacer pedido
+              Reservar mesa
             </a>
           </div>
         </div>

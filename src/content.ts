@@ -1,50 +1,46 @@
-// Única fuente de verdad del negocio. Datos aportados directamente por el
-// cliente (ver /data/contacto.json) el 15 de septiembre de 2026. Google Maps
-// no expone en este caso dirección, horario, valoración ni fotografías del
-// local, por lo que esos campos quedan pendientes de que el cliente los
-// facilite (ver comentarios "Pendiente" en cada bloque afectado).
+// Única fuente de verdad del negocio. Datos combinados de la ficha de Google
+// Maps (ver /data/place.json y /data/ficha.md, descargados el 19 de
+// septiembre de 2026) y de la información aportada directamente por el
+// cliente (ver /data/contacto.json).
 
 export const content = {
   name: 'Niki Casual Food',
   shortName: 'Niki',
-  tagline: 'Comida casual hecha con cariño',
+  tagline: 'Cocina japonesa casual en el corazón de Camins al Grau, Valencia',
   description:
-    'Niki Casual Food es un espacio pensado para comer bien y sin complicaciones, con recetas caseras y un trato cercano de principio a fin. Ya sea para un plato rápido a mediodía o para pedir cómodamente desde casa, en Niki cuidamos cada detalle para que la experiencia sea sencilla y sabrosa.',
+    'Niki Casual Food es un pequeño restaurante japonés en el barrio de Camins al Grau, en Valencia, donde el sushi y los poke bowls se preparan con producto fresco y mucho mimo. Un local acogedor, con trato cercano y una carta pensada para disfrutar tanto en pareja como en familia, ya sea comiendo en el local o pidiendo para llevar.',
   metaDescription:
-    'Niki Casual Food: comida casual y cercana, pensada para disfrutar en el local o pedir para llevar. Contacta por WhatsApp o síguenos en Instagram.',
+    'Restaurante japonés en Valencia (Camins al Grau). Sushi, poke bowls y rolls frescos en un local pequeño y acogedor. Reserva o pide por WhatsApp.',
   keywords: [
     'Niki Casual Food',
-    'comida casual',
-    'restaurante casual',
-    'comida para llevar',
-    'pedidos por WhatsApp',
-    'Niki',
+    'restaurante japonés Valencia',
+    'sushi Valencia',
+    'poke bowl Valencia',
+    'Camins al Grau',
+    'sushi bar Valencia',
+    'comida japonesa cerca de mí',
+    'reservas restaurante japonés',
   ],
-  priceRange: '',
-  priceRangeDisplay: 'Consulta precios por WhatsApp',
-  cuisine: 'Comida casual',
+  priceRange: '20 € - 30 €',
+  priceRangeDisplay: '20 € – 30 € por persona',
+  cuisine: 'Japonesa',
 
-  // Pendiente: Google Maps no expone valoración para este negocio. Añadir
-  // cuando el cliente facilite el nº de reseñas y la puntuación.
-  rating: { value: 0, count: 0, countDisplay: '' },
+  rating: { value: 5, count: 367, countDisplay: '367 reseñas' },
   highlights: [
-    'Recetas caseras pensadas para el día a día.',
-    'Trato cercano y atención directa por WhatsApp.',
-    'Pedidos rápidos para tomar en el local o para llevar.',
+    'Sushi, sashimi y poke bowls con producto fresco de calidad.',
+    'Local pequeño y acogedor, con trato cercano de los dueños.',
+    'Terraza, apto para niños y con entrada y asientos accesibles.',
   ],
 
-  // Pendiente: dirección exacta del local — el cliente no la ha facilitado
-  // todavía. El botón "Cómo llegar" usa por ahora el enlace corto de Google
-  // Maps aportado por el cliente.
   address: {
-    streetAddress: '',
-    addressLocality: '',
-    addressRegion: '',
-    postalCode: '',
+    streetAddress: "Carrer de la Dama d'Elx, 11",
+    addressLocality: 'València',
+    addressRegion: 'Valencia',
+    postalCode: '46023',
     addressCountry: 'ES',
-    full: '',
+    full: "C/ de la Dama d'Elx, 11, Camins al Grau, 46023 València, Valencia",
   },
-  geo: null as { lat: number; lng: number } | null,
+  geo: { lat: 39.462151899999995, lng: -0.3430218 } as { lat: number; lng: number } | null,
 
   phone: '+34 644 60 88 73',
   phoneDisplay: '644 60 88 73',
@@ -60,17 +56,51 @@ export const content = {
     whatsapp: '',
   },
 
-  // Pendiente: horario de apertura — el cliente no lo ha facilitado todavía.
-  hours: [] as { day: string; hours: string }[],
-  openingHoursSchema: [] as { dayOfWeek: string[]; opens: string; closes: string }[],
+  hours: [
+    { day: 'Lunes', hours: 'Cerrado' },
+    { day: 'Martes', hours: '19:00–22:30' },
+    { day: 'Miércoles', hours: '19:00–22:30' },
+    { day: 'Jueves', hours: '19:00–22:30' },
+    { day: 'Viernes', hours: '13:00–16:00, 19:00–23:00' },
+    { day: 'Sábado', hours: '13:00–16:00, 19:00–23:00' },
+    { day: 'Domingo', hours: '13:00–16:00, 19:00–22:30' },
+  ],
+  openingHoursSchema: [
+    { dayOfWeek: ['Tuesday', 'Wednesday', 'Thursday'], opens: '19:00', closes: '22:30' },
+    { dayOfWeek: ['Friday', 'Saturday'], opens: '13:00', closes: '16:00' },
+    { dayOfWeek: ['Friday', 'Saturday'], opens: '19:00', closes: '23:00' },
+    { dayOfWeek: ['Sunday'], opens: '13:00', closes: '16:00' },
+    { dayOfWeek: ['Sunday'], opens: '19:00', closes: '22:30' },
+  ],
 
-  // Pendiente: fotografías del local — el cliente no ha aportado imágenes
-  // todavía. En cuanto lleguen, procesarlas (ver punto 5 del handoff) y
-  // añadirlas aquí para activar el Hero con foto real y la galería.
-  gallery: [] as { src: string; alt: string }[],
+  gallery: [
+    { src: '/gallery/niki-fachada.jpg', alt: 'Fachada del restaurante japonés Niki Casual Food en Valencia' },
+    { src: '/gallery/niki-sushi-bar.jpg', alt: 'Barra de sushi de Niki Casual Food' },
+    { src: '/gallery/niki-bowls.jpg', alt: 'Poke bowls de salmón y pollo teriyaki en Niki Casual Food' },
+    { src: '/gallery/niki-rolls.jpg', alt: 'Rolls de sushi frescos servidos en Niki Casual Food' },
+    { src: '/gallery/niki-sashimi.jpg', alt: 'Sashimi de salmón fresco en Niki Casual Food' },
+    { src: '/gallery/niki-interior.jpg', alt: 'Interior acogedor del restaurante Niki Casual Food' },
+  ],
+
+  reviews: [
+    {
+      author: 'Ignacio Bayo',
+      text: 'Restaurante japonés pequeñito, con una estética muy cuidada y un ambiente acogedor. Los dueños son encantadores y muy atentos. La relación calidad-precio nos pareció excelente.',
+    },
+    {
+      author: 'María Ramírez',
+      text: 'Uno de los mejores sashimis de salmón que me he comido en mi vida. La calidad del producto es increíble y la presentación preciosa.',
+    },
+    {
+      author: 'Tatyana R',
+      text: 'La comida es deliciosa: los rollos son grandes, frescos y jugosos. Los mejores que hemos probado en Valencia.',
+    },
+  ],
 
   mapEmbedSrc:
-    'https://www.google.com/maps?q=' + encodeURIComponent('Niki Casual Food') + '&hl=es&z=15&output=embed',
+    'https://www.google.com/maps?q=' +
+    encodeURIComponent("Niki Casual Food, Carrer de la Dama d'Elx 11, 46023 València") +
+    '&hl=es&z=16&output=embed',
   mapLinkUrl: 'https://maps.app.goo.gl/kH8GLYGzHPQwuoGM9',
 }
 
@@ -81,9 +111,9 @@ export function whatsappLink(message: string): string {
 export const WHATSAPP_CONTACT_MESSAGE =
   '¡Hola! Vengo de la página web de Niki Casual Food y tengo una consulta.'
 export const WHATSAPP_RESERVE_MESSAGE =
-  '¡Hola! Vengo de la página web de Niki Casual Food y me gustaría hacer un pedido.'
+  '¡Hola! Vengo de la página web de Niki Casual Food y me gustaría hacer una reserva.'
 
-// Sin sistema de pedidos propio: cae siempre a WhatsApp.
+// Sin sistema de reservas propio: cae siempre a WhatsApp.
 export const reservationLink = ''
 
 export function contactHref(): string {

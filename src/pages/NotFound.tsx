@@ -8,14 +8,14 @@ export default function NotFound() {
         <title>Página no encontrada — {content.name}</title>
         <meta name="robots" content="noindex" />
       </Helmet>
-      <p className="font-display text-6xl font-semibold text-tomato">404</p>
+      <p className="font-display text-6xl font-semibold text-salmon">404</p>
       <h1 className="font-display text-2xl font-semibold">Esta página no existe</h1>
       <p className="max-w-sm text-ink/70">
         Puede que el enlace esté mal escrito o que la página se haya movido.
       </p>
       <a
         href="./"
-        className="mt-2 rounded-full bg-tomato px-6 py-3 text-sm font-semibold text-cream transition hover:bg-tomato-dark"
+        className="mt-2 rounded-full bg-salmon px-6 py-3 text-sm font-semibold text-cream transition hover:bg-salmon-dark"
       >
         Volver al inicio
       </a>

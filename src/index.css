@@ -1,18 +1,18 @@
 @import 'tailwindcss';
 
-/* Paleta provisional tipo "casual food" (mostaza, tomate, carbón, crema) —
-   pendiente de sustituir por la paleta extraída de fotos reales del local
-   en cuanto el cliente las facilite (ver punto 0.5 del handoff: nunca dejar
-   una paleta genérica de plantilla como definitiva). */
+/* Paleta extraída de las fotos reales del local: el rosa envejecido y el
+   marrón del rótulo de la fachada, el salmón del pescado fresco, el verde
+   del alga wakame y la madera oscura de las mesas. */
 @theme {
-  --color-cream: #fbf4e6;
-  --color-cream-dark: #f2e6cc;
-  --color-ink: #2a221c;
-  --color-mustard: #e8a13a;
-  --color-mustard-dark: #c17f1f;
-  --color-tomato: #d94f30;
-  --color-tomato-dark: #ac3a21;
-  --color-charcoal: #3c3430;
+  --color-cream: #faf6f2;
+  --color-cream-dark: #f0e6de;
+  --color-ink: #2b2320;
+  --color-mauve: #b98a82;
+  --color-mauve-dark: #8f6259;
+  --color-salmon: #e0714a;
+  --color-salmon-dark: #b8542f;
+  --color-moss: #4b5d3a;
+  --color-charcoal: #4a3c37;
 
   --font-display: 'Fraunces', ui-serif, Georgia, serif;
   --font-sans: 'Figtree', ui-sans-serif, system-ui, sans-serif;
@@ -33,4 +33,12 @@
   h4 {
     font-family: var(--font-display);
   }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }

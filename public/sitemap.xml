@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://samuelfagundez.github.io/niki-casual-food/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://samuelfagundez.github.io/niki-casual-food/gallery/niki-fachada.jpg</image:loc>
+      <image:title>Fachada del restaurante japonés Niki Casual Food en Valencia</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://samuelfagundez.github.io/niki-casual-food/gallery/niki-sushi-bar.jpg</image:loc>
+      <image:title>Barra de sushi de Niki Casual Food</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://samuelfagundez.github.io/niki-casual-food/gallery/niki-bowls.jpg</image:loc>
+      <image:title>Poke bowls de Niki Casual Food</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://samuelfagundez.github.io/niki-casual-food/gallery/niki-rolls.jpg</image:loc>
+      <image:title>Rolls de sushi frescos de Niki Casual Food</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://samuelfagundez.github.io/niki-casual-food/gallery/niki-sashimi.jpg</image:loc>
+      <image:title>Sashimi de salmón de Niki Casual Food</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://samuelfagundez.github.io/niki-casual-food/gallery/niki-interior.jpg</image:loc>
+      <image:title>Interior del restaurante Niki Casual Food</image:title>
+    </image:image>
   </url>
 </urlset>
