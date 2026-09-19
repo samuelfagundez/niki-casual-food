@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 2,
+  "source": {
+    "shortUrl": "https://maps.app.goo.gl/kH8GLYGzHPQwuoGM9",
+    "expandedUrl": "https://www.google.com/maps/place/Niki+Casual+Food/@39.4620537,-0.3435616,19.25z/data=!4m6!3m5!1s0xd604984cd8676a9:0x6cc350e32c2eed87!8m2!3d39.4621519!4d-0.3430218!16s%2Fg%2F11wxcw93zt?entry=tts&g_ep=EgoyMDI2MDkwOS4wIPu8ASoASAFQAw%3D%3D&skid=4812f1ab-d4ff-4c42-ac5e-9a2d47efe48c&ucbcb=1",
+    "googleMapsUri": "https://maps.google.com/?cid=7837196713183866247&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+    "placeId": "ChIJqXaGzYRJYA0Rh-0uLONQw2w",
+    "featureId": "0xd604984cd8676a9:0x6cc350e32c2eed87",
+    "gmapsPlaceRef": "/g/11wxcw93zt",
+    "provider": "google-places-api-v1",
+    "fetchedAt": "2026-09-19T19:48:39.469Z"
+  },
+  "name": "Niki Casual Food",
+  "rating": {
+    "score": 5,
+    "count": 367
+  },
+  "phone": "+34 644 60 88 73",
+  "phoneNational": "644 60 88 73",
+  "hours": {
+    "weekly": [
+      "lunes: Cerrado",
+      "martes: 19:00–22:30",
+      "miércoles: 19:00–22:30",
+      "jueves: 19:00–22:30",
+      "viernes: 13:00–16:00, 19:00–23:00",
+      "sábado: 13:00–16:00, 19:00–23:00",
+      "domingo: 13:00–16:00, 19:00–22:30"
+    ],
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 13,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 16,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 0,
+          "hour": 19,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 22,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 19,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 22,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 19,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 22,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 19,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 22,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 13,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 16,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 19,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 13,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 16,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 19,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 23,
+          "minute": 0
+        }
+      }
+    ],
+    "secondary": []
+  },
+  "socials": [],
+  "pricePerPerson": "20 € – 30 €",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "links": {
+    "website": "https://nikifood.es/",
+    "menu": null,
+    "reservations": "https://nikifood.es/",
+    "reservable": true,
+    "googleMaps": "https://maps.google.com/?cid=7837196713183866247&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+    "directions": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0xd604984cd8676a9:0x6cc350e32c2eed87!3e0?g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+    "reviews": "https://www.google.com/maps/place//data=!4m4!3m3!1s0xd604984cd8676a9:0x6cc350e32c2eed87!9m1!1b1?g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+    "photos": "https://www.google.com/maps/place//data=!4m3!3m2!1s0xd604984cd8676a9:0x6cc350e32c2eed87!10e5?g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+    "writeReview": "https://www.google.com/maps/place//data=!4m3!3m2!1s0xd604984cd8676a9:0x6cc350e32c2eed87!12e1?g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "address": {
+    "formatted": "C/ de la Dama d'Elx, 11, Camins al Grau, 46023 València, Valencia",
+    "short": "C/ de la Dama d'Elx, 11, València",
+    "components": {
+      "number": "11",
+      "street": "Carrer de la Dama d'Elx",
+      "city": "València",
+      "province": "Valencia",
+      "region": "Comunidad Valenciana",
+      "country": "España",
+      "postalCode": "46023"
+    }
+  },
+  "location": {
+    "lat": 39.462151899999995,
+    "lng": -0.3430218
+  },
+  "primaryType": "japanese_restaurant",
+  "primaryTypeLabel": "Restaurante japonés",
+  "types": [
+    "japanese_restaurant",
+    "sushi_restaurant",
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "businessStatus": "OPERATIONAL",
+  "editorialSummary": null,
+  "utcOffsetMinutes": 120,
+  "features": [
+    "Admite reservas",
+    "Comer en el local",
+    "Terraza / asientos fuera",
+    "Apto para niños",
+    "Aseos",
+    "Comidas",
+    "Postres",
+    "Cerveza",
+    "Vino"
+  ],
+  "accessibility": [
+    "Entrada accesible",
+    "Asientos accesibles"
+  ],
+  "paymentOptions": {
+    "acceptsCreditCards": true,
+    "acceptsDebitCards": true,
+    "acceptsCashOnly": false,
+    "acceptsNfc": true
+  },
+  "parkingOptions": {
+    "freeStreetParking": true
+  },
+  "photos": [
+    {
+      "file": "fotos/01.jpg",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "attribution": "Niki Casual Food",
+      "attributionUri": "https://maps.google.com/maps/contrib/115495181951060492391"
+    },
+    {
+      "file": "fotos/02.jpg",
+      "widthPx": 828,
+      "heightPx": 709,
+      "attribution": "Niki Casual Food",
+      "attributionUri": "https://maps.google.com/maps/contrib/115495181951060492391"
+    },
+    {
+      "file": "fotos/03.jpg",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "attribution": "Sebastiaan Roos",
+      "attributionUri": "https://maps.google.com/maps/contrib/117160085611166366174"
+    },
+    {
+      "file": "fotos/04.jpg",
+      "widthPx": 1170,
+      "heightPx": 1281,
+      "attribution": "Niki Casual Food",
+      "attributionUri": "https://maps.google.com/maps/contrib/115495181951060492391"
+    },
+    {
+      "file": "fotos/05.jpg",
+      "widthPx": 3023,
+      "heightPx": 3618,
+      "attribution": "Ernesto K.",
+      "attributionUri": "https://maps.google.com/maps/contrib/108689714775815999703"
+    },
+    {
+      "file": "fotos/06.jpg",
+      "widthPx": 2700,
+      "heightPx": 4800,
+      "attribution": "Kim Schneider",
+      "attributionUri": "https://maps.google.com/maps/contrib/115325654388997393077"
+    },
+    {
+      "file": "fotos/07.jpg",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "attribution": "Elise Lasschuit",
+      "attributionUri": "https://maps.google.com/maps/contrib/113232660318579935266"
+    },
+    {
+      "file": "fotos/08.jpg",
+      "widthPx": 2268,
+      "heightPx": 4032,
+      "attribution": "Даша Браткова",
+      "attributionUri": "https://maps.google.com/maps/contrib/112582361495132235526"
+    },
+    {
+      "file": "fotos/09.jpg",
+      "widthPx": 4096,
+      "heightPx": 3072,
+      "attribution": "Montse Marrades",
+      "attributionUri": "https://maps.google.com/maps/contrib/100355543338592838413"
+    },
+    {
+      "file": "fotos/10.jpg",
+      "widthPx": 4032,
+      "heightPx": 3024,
+      "attribution": "Alexandre Alonso Miguel",
+      "attributionUri": "https://maps.google.com/maps/contrib/101987621047711888242"
+    }
+  ],
+  "reviews": [
+    {
+      "author": "Ignacio Bayo",
+      "authorPhoto": "https://lh3.googleusercontent.com/a/ACg8ocIrqYYW1tFpQ3s8GrZ70I6oh3OCRxqyaEu9U756PnzyN-XiNg=s128-c0x00000000-cc-rp-mo",
+      "authorUri": "https://www.google.com/maps/contrib/110435637534759107462/reviews",
+      "rating": 5,
+      "text": "Fuimos a Niki Casual Food a comer en pareja y fue todo un acierto. Es un restaurante japonés pequeñito, con una estética muy cuidada y un ambiente acogedor que invita a quedarse un rato más.  Los dueños son encantadores, muy atentos en todo momento, y hacen que te sientas como en casa desde que entras.\n\nPedimos el menú especial con gyozas de pollo de primero, poke de salmón y atún de segundo y, para rematar, los rolls dragón y Canada. Las gyozas venían bien doradas y sabrosas, el poke estaba lleno de sabor y con ingredientes muy frescos, y los rolls fueron el broche perfecto, equilibrados y riquísimos.  La relación calidad-precio nos pareció excelente, especialmente teniendo en cuenta la calidad del producto y el mimo en cada plato.  Sin duda, un sitio al que volveremos y que recomiendo totalmente a quien busque buena comida japonesa en un local acogedor y con trato cercano.",
+      "language": "es",
+      "relativeTime": "Hace 7 meses",
+      "publishTime": "2026-02-17T08:17:29.722292183Z"
+    },
+    {
+      "author": "María Ramírez",
+      "authorPhoto": "https://lh3.googleusercontent.com/a-/ALV-UjVt4t2rAP0uhlp5l6ayYlpkcI0l3kbIms2A2eugTuA28HUIDC-YPg=s128-c0x00000000-cc-rp-mo-ba3",
+      "authorUri": "https://www.google.com/maps/contrib/104894201786319354333/reviews",
+      "rating": 5,
+      "text": "Sin duda alguna uno de los mejores sashimis de salmón que me he comido en mi vida. También tiene una buena variedad de sushi con anguila muy rico. La calidad del producto es increíble, la presentación es preciosa, y buena cantidad. Además el local es muy agradable y el servicio super atento y cuidadoso. Lo descubrimos al lado de casa y se está volviendo uno de nuestros favoritos. 10/10",
+      "language": "es",
+      "relativeTime": "Hace 3 meses",
+      "publishTime": "2026-06-18T08:47:55.358234530Z"
+    },
+    {
+      "author": "Tatyana R",
+      "authorPhoto": "https://lh3.googleusercontent.com/a/ACg8ocIx79TvaLQxsfDe-CbMmNtW66Kac26JdRXMH92GL4Rz14nlRQ=s128-c0x00000000-cc-rp-mo-ba3",
+      "authorUri": "https://www.google.com/maps/contrib/111165397287944884222/reviews",
+      "rating": 5,
+      "text": "Es un lugar increíble!!!\nEl restaurante es pequeño, aproximadamente 6-7 mesas, pero el ambiente es agradable, los baños están limpios.\nLa comida es deliciosa: un montón de pescado, no solo arroz, los rollos son grandes, frescos y jugosos.Estos son los mejores rollos que hemos probado en Valencia en este momento.No se puede comparar la calidad de los rollos con un buffet libre.\nEra mi cumpleaños.Me trajeron un pedazo de pastel con helado y una bola de helado para cada invitado,aunque no estaba hablando de la fiesta de cumpleaños, solo la anfitriona escuchó accidentalmente.Fue tan dulce.¡Lo recomiendo a todos!🤗",
+      "language": "es",
+      "relativeTime": "Hace 7 meses",
+      "publishTime": "2026-02-09T15:15:21.923374410Z"
+    },
+    {
+      "author": "Roxana Timis",
+      "authorPhoto": "https://lh3.googleusercontent.com/a/ACg8ocJWkcQt8vwzFcKQ8wMau052jQsyXzXNcGFPhZD0tWusxWGHmw=s128-c0x00000000-cc-rp-mo",
+      "authorUri": "https://www.google.com/maps/contrib/106677875360600466751/reviews",
+      "rating": 5,
+      "text": "Sushi delicioso, fresco y muy bien presentado. Se nota la calidad de los productos. Además, los dueños son súper amables y el trato es excelente. Un sitio pequeño pero con mucho encanto. ¡Muy recomendable!",
+      "language": "es",
+      "relativeTime": "Hace 8 meses",
+      "publishTime": "2026-01-16T19:33:56.841251611Z"
+    },
+    {
+      "author": "Montse Marrades",
+      "authorPhoto": "https://lh3.googleusercontent.com/a/ACg8ocKsfNKHWNvHYg5whETnBQDrlLT4G0MKHho4aZI2p1W6HbTNjQ=s128-c0x00000000-cc-rp-mo-ba2",
+      "authorUri": "https://www.google.com/maps/contrib/100355543338592838413/reviews",
+      "rating": 5,
+      "text": "Hemos pasado por delante tantas veces ... y nunca nos habíamos decidido a entrar. Decir que es de los mejores sushi que hemos probado. Sorprendidos y muy contentos de tener este local en nuestro barrio. Por cierto, la tarta de chocolate de 10!!!",
+      "language": "es",
+      "relativeTime": "Hace 6 meses",
+      "publishTime": "2026-03-22T09:27:14.773356107Z"
+    }
+  ]
+}
